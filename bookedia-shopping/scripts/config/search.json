@@ -1,57 +1,12 @@
 {
   "exclusions": [
-    "/itineraries/.*/fullId",
-    "/itineraries/.*/itineraryId",
-    "/itineraries/.*/providerData/lastPurchase",
-    "/ticket/.*",
-    "/splittingMode",
-    "/searchFromRepository",
-    "/itineraries/.*/routes/.*/segments/.*/referenceCode",
-    "/itineraries/.*/profitDetail/explain",
-    "/itineraries/.*/alternatives",
-    "/providerRepoStatus"
+    "/bookedia/shopping/availability/.*"
   ],
   "collection": {
     "order": [
       {
-        "node": "itineraries",
-        "key": ["alternativesKey"]
-      },
-      {
-        "node": "segments",
-        "key": ["sequenceNumber"]
-      },
-      {
-        "node": "flightBreakDowns",
-        "key": ["fullId"]
-      },
-      {
-        "node": "crossSellingFare",
-        "key": ["id"]
-      },
-      {
-        "node": "alternatives",
-        "key": ["code"]
-      },
-      {
-        "node": "priceDifference",
-        "key": ["id"]
-      },
-      {
-        "node": "flexiblePolicies",
-        "key": ["afterSaleOperation"]
-      },
-      {
-        "node": "afterSaleActions",
-        "key": ["type"]
-      },
-      {
-        "node": "costs",
-        "key": ["type"]
-      },
-      {
         "node": "rules",
-        "key": ["id"]
+        "key": ["hotelId"]
       }
     ]
   }
