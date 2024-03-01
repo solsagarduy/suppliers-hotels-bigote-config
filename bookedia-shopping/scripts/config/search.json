@@ -1,0 +1,13 @@
+{
+  "exclusions": [
+    "/bookedia/shopping/availability/.*"
+  ],
+  "collection": {
+    "order": [
+      {
+        "node": "rules",
+        "key": ["hotelId"]
+      }
+    ]
+  }
+}
